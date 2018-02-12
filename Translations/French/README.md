@@ -1,4 +1,4 @@
-#Questionnaire de recrutement pour développeur front-end
+# Questionnaire de recrutement pour développeur front-end
 
 Cette liste contient un certain nombre de questions que vous pouvez poser lors d'un entretien d'embauche pour un développeur Front-End. Il n'est en aucun cas recommandé de poser toutes ces questions à un candidat (ça prendrait des heures). Choisissez en quelques-unes liées au profil que vous rechercher afin de vérifier les compétences dont vous avez besoin.
 
@@ -14,7 +14,7 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
   1. [Questions sur la programmation](#code-questions)
   1. [Questions pour le fun](#fun-questions)
 
-####S'impliquer :
+#### S'impliquer :
 
   1. [Contributeurs](#contributors)
   1. [Comment contribuer (en)](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
@@ -22,56 +22,59 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
 
 **[[⬆]](#toc)**
 
-####<a name='general-questions'>Questions générales:</a>
+#### <a name='general-questions'>Questions générales:</a>
 
 * Qu'avez-vous appris cette semaine ?
 * Qu'est ce qui vous motive ou vous intéresse dans le développement ?
 * Quel a été le dernier défi technique que vous avez expérimenté et comment l'avez-vous résolu ?
 * Quelles considérations en terme d'UI, Sécurité, Performance, SEO, Maintenabilité ou Technologie faites-vous lorsque vous concevez une application web ou site ?
 * Parlez-moi de votre environnement de travail préféré.
-* Avec quels logiciels de gestion de versions êtes vous familier?
+* Avec quels logiciels de gestion de versions êtes-vous familier?
 * Pouvez-vous décrire comment vous travaillez (votre workflow) lorsque vous créez une page web ?
-* Si vous aviez 5 feuilles de style différentes, de quel façon les intgreriez-vous le mieux dans un site ?
+* Si vous aviez 5 feuilles de style différentes, de quelle façon les intégreriez-vous le mieux dans un site ?
 * Pouvez-vous décrire la différence entre amélioration progressive et dégradation gracieuse ?
-* Comment optimisez-vous les performances de vos pages web (assets/resources) ?
+* Comment optimisez-vous les performances de vos pages web (assets/ressources) ?
 * Combien de ressources différentes à la fois un navigateur peut-il télécharger à partir d'un même domaine ?
   * Quelles sont les exceptions ?
 * Donnez 3 façons qui permettent de réduire le temps de chargement d'une page (perçu ou réel).
-* Si vous commencer à travailler sur un projet existant, où votre prédécesseur a utilisé des tabulations pour indenter son code et que vous utilisez des espaces, que faites-vous ?
+* Si vous commencez à travailler sur un projet existant, où votre prédécesseur a utilisé des tabulations pour indenter son code et que vous utilisez des espaces, que faites-vous ?
 * Décrivez comment vous développeriez un simple diaporama
 * Quels outils utilisez-vous pour tester la performance de votre code ?
-* Si vous pouviez maîtriser parfaitement une technologie cette année, laquelle serait t'elle ?
+* Si vous pouviez maîtriser parfaitement une technologie cette année, laquelle serait-elle ?
 * Expliquez l'importance des standards et des organisations les édictant.
-* Qu'est-ce que le FOUC, comment l'évitez-vous ?
-* Expliquez qu'est-ce que sont ARIA et les lecteurs d'écrans, et comment rendre votre site internet accessible
+* Qu'est-ce que le FOUC (*flash of unstyled content*) et comment l'évitez-vous ?
+* Expliquez ce que sont ARIA et les lecteurs d'écrans, et comment rendre votre site internet accessible
 * Expliquez quelques-uns des pour et contre des animations CSS par rapport aux animations JavaScript
+* Que signifie CORS et quel problème aborde-t-il ?
 
 **[[⬆]](#toc)**
 
-####<a name='html-questions'>Questions sur HTML :</a>
+#### <a name='html-questions'>Questions sur HTML :</a>
 
 * Que fait un `doctype` ?
 * Quelle est la différence entre les modes `standard` et `quirks` ?
 * Quelles sont les différences entre HTML et XHTML ?
-* Y a t'il des problèmes à envoyer des pages avec le content-type `application/xhtml+xml` ?
+* Y a-t-il des problèmes à envoyer des pages avec le *Content-Type* `application/xhtml+xml` ?
 * Comment servez-vous une page avec du contenu multilingue ?
-* À quoi devez-vous faire attention quand vous désignez ou développez des pages pour des sites multilingues ?
-* À quoi les `data-` "attributes" servent-ils ?
-* Si l'on considère que HTML5 est une plateforme web ouverte, quelles sont les briques de base de HTML5 ?
+* À quoi devez-vous faire attention quand vous *designez* ou développez des pages pour des sites multilingues ?
+* À quoi les attributs `data-` servent-ils ?
+* Si l'on considère que HTML5 est une API Web ouverte, quelles sont les briques de base de HTML5 ?
 * Décrivez la différence entre `cookie`, `sessionStorage`, et `localStorage`.
 * Décrivez la différence entre `<script>`, `<script async>` et `<script defer>`.
-* Pourquoi est-ce-t'il généralement une bonne idée de positionner `<link>`s à l'intérieur de `<head></head>` et `<script>`s juste avant `</body>`? Connaissez-vous des exceptions?
+* Pourquoi est-ce généralement une bonne idée de positionner les `<link>` à l'intérieur de `<head></head>` et les `<script>` juste avant `</body>`? Connaissez-vous des exceptions ?
 * Qu'est-ce que le rendu progressif ?
+* Pourquoi utiliseriez-vous l'attribut `srcset` dans une balise image ? Expliquez le processus utilisé par le navigateur lors de l'évaluation du contenu de cet attribut.
+ 
 
 **[[⬆]](#toc)**
 
-####<a name='css-questions'>Questions sur CSS :</a>
+#### <a name='css-questions'>Questions sur CSS :</a>
 
 * Quelle est la différence entre les classes et les IDs en CSS ?
 * Quelle est la différence entre un "reset" et une "normalisation" en CSS ? Lequel choisiriez-vous et pourquoi ?
 * Décrivez le positionnement flottant et son fonctionnement.
 * Décrivez le `z-index` et comment le contexte d'empilement se forme ?
-* Quelles sont les différentes méthodes de "clearing" des éléments flottant, et laquelle est appropriée pour chaque contexte ?
+* Quelles sont les différentes méthodes de "clearing" des éléments flottants, et laquelle est appropriée pour chaque contexte ?
 * Expliquez ce que sont les "sprites" CSS et comment vous les implémenteriez sur une page ou un site.
 * Quelles sont vos techniques favorites de remplacement d'images, et comment les utilisez-vous ?
 * Quelle approche choisiriez-vous pour réparer des bugs au niveau du CSS spécifique à certains navigateurs ?
@@ -93,15 +96,15 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
 * Quelle est la différence entre `inline` et `inline-block` ?
 * Quelle est la différence entre les éléments ayant `relative`, `fixed`, `absolute` et `static` comme `position` ?
 * Le 'C' dans CSS veut dire Cascade (Cascading). Comment la priorité est-elle définie lors de l'assignement de styles (exemples) ? Comment pouvez-vous utiliser ce système à votre avantage ?
-* Quels systèmes CSS (framework) avez-vous utilisé localement, ou en production ? Comment feriez-vous pour les changer/améliorer ?
+* Quels frameworks CSS avez-vous utilisé localement, ou en production ? Comment feriez-vous pour les changer/améliorer ?
 * Avez-vous expérimenté le récent `flexbox` ?
 * En quoi le "responsive design" est différent du "adaptive design" ?
-* Avez-vous déjà travaillé avec des images "retina" ? Si oui, à quel moment et quelles techniques avez-vous utilisé ?
-* Il y a t'il des raisons particulières pour lesquelles vous voudriez utilser `translate()` plutôt que `position: absolute` ou vice-versa ? Et pourquoi ?
+* Avez-vous déjà travaillé avec des images "retina" ? Si oui, à quel moment et quelles techniques avez-vous utilisées ?
+* Y a-t-il des raisons particulières pour lesquelles vous voudriez utilser `translate()` plutôt que `position: absolute` ou vice-versa ? Et pourquoi ?
 
 **[[⬆]](#toc)**
 
-####<a name='js-questions'>Questions sur JS :</a>
+#### <a name='js-questions'>Questions sur JS :</a>
 
 * Expliquez la délégation d'évènement.
 * Expliquez comment fonctionne `this` en Javascript.
@@ -110,16 +113,14 @@ Cette liste contient un certain nombre de questions que vous pouvez poser lors d
 * Que pensez-vous d'AMD par rapport à CommonJS ?
 * Expliquez pourquoi ce qui suit n'est pas une IIFE (Immediately Invoked Function Expression) : `function foo(){ }();`.
   * Qu'est-ce qu'il faut changer pour faire une IIFE correcte ?
-* Quelle est la différence entre une variable `null`, `undefined` et `undeclared` ?
+* Quelle est la différence entre une variable `null`, `undefined` et non déclarée ?
   * Comment feriez-vous pour vérifier chacun de ces états ?
 * Qu'est-ce qu'une "closure" et comment/pourquoi en utiliser une ?
+* Pouvez-vous décrire la principale difference entre la boucle `forEach` et la boucle `.map()` et pourquoi choisiriez-vous l'une et pas l'autre ?
 * Quelle est l'utilisation typique d'une fonction anonyme ?
 * Comment organisez-vous votre code ? (pattern modulaire, héritage classique ?)
 * Quelle est la différence entre des objets hôtes et des objets natifs ?
-* Différence entre :
-```javascript
-function Person(){} var person = Person() var person = new Person()
-```
+* Différence entre: `function Person() {}`, `var person = Person()` et `var person = new Person()` ?
 * Quelle est la différence entre `.call` et `.apply` ?
 * Expliquez `Function.prototype.bind` ?
 * Comment optimisez-vous votre code ?
@@ -134,9 +135,9 @@ function Person(){} var person = Person() var person = new Person()
 * Décrivez le "event bubbling".
 * Quelle est la différence entre un "attribut" et une "propriété" ?
 * Pourquoi étendre des objets natifs de Javascript n'est-il pas une bonne idée ?
-* Pourquoi étendre les objets natifs est-il une bonne idée ?
+* Pourquoi étendre des objets natifs est-il une bonne idée ?
 * Quelle est la différence entre les évènements "document load" et "document ready" ?
-* Quelle la différence entre `==` et `===` ?
+* Quelle est la différence entre `==` et `===` ?
 * Expliquez la politique d'origine commune (same-origin policy) et ses implications en JavaScript.
 * Expliquez les patterns d'héritage en JavaScript.
 * Faites fonctionner ceci :
@@ -147,53 +148,82 @@ function Person(){} var person = Person() var person = new Person()
 * Qu'est-ce que `"use strict";`? Quels sont les avantages et désavantages de son utilisation ?
 * Créez une boucle `for` qui se répète `100` fois et affichez **"fizz"** aux multiples de `3`, `"buzz"` aux multiples de `5` et **"fizzbuzz"** aux multiples de `3` et `5`.
 * Pourquoi il est en général préférable de laissez le 'scope' global d'un site tel quel et ne jamais y toucher ?
-* Pourquoi utiliseriez-vous quelque chose comme l'événement `load` ? Est-ce que cette événement a des avantages ? Connaissez-vous des alternatives, et pourquoi les utiliseriez-vous ?
-* Expliquez ce qu'est une application à 1 page et comment feriez pour qu'elle soit optimisé pour le SEO.
-* Quelle est l'étendu de votre expérience avec les "Promises" et/ou leurs "polyfills" ?
+* Pourquoi utiliseriez-vous quelque chose comme l'événement `load` ? Est-ce que cet évènement a des avantages ? Connaissez-vous des alternatives, et pourquoi les utiliseriez-vous ?
+* Expliquez ce qu'est une application mono-page (*Single Page Application*) et comment feriez-vous pour qu'elle soit optimisée pour le référencement (*SEO*).
+* Quelle est l'étendue de votre expérience avec les "Promises" et/ou leurs "polyfills" ?
 * Quels sont les pour et contre de l'utilisation des "Promises" à la place des "callbacks" ?
+* Quels sont les avantages/inconvénients de l'écriture de code JavaScript dans un language qui compile en JavaScript ?
+* Quels outils et techniques utilisez-vous pour le "debugging" du code javascript ?
+* Quels langages de construction utilisez-vous pour les itérations sur les propriétés d'objet et éléments de tableau.
+* Expliquez la difference entre les objets muables et les objets immuables.
+  * Donnez un exemple d'objet immuable en javascript.
+  * Quels sont les avantages et inconvénients de l'immuabilité ?
+  * Comment pouvez-vous réaliser l'immuabilité dans votre code ?
+* Expliquez la différence entre les fonctions synchrones et asynchrones.
+* Qu'est ce qu'une boucle d'événement ?
+  * Quelle est la différence entre la pile d'appels et la file d'attente de tâches?
+* Expliquez les différences dans l'usage de `foo` entre `foo() {}` et `var foo = function() {}`
+* Quelles sont les différences entre les variables crées en utilisant `let`, `var` ou `const` ?
 
 **[[⬆]](#toc)**
 
-####<a name="network-questions">Questions sur le réseau</a>
+#### <a name="testing-questions">Questions sur les Tests</a>
+
+* Quels sont les avantages/inconvénients de tester votre code ?
+* Quels outils utiliseriez-vous pour tester les fonctionnalités de votre code.
+* Quel est la difference entre un test unitaire et un test fonctionnel/d'intégration ?
+* Quel est le but d'un outil de lissage de style de code ?
+
+**[[⬆]](#toc)**
+
+#### <a name="performance-questions">Questions sur la performance</a>
+
+* Quels outils utiliseriez-vous pour trouver une érreur de performance dans votre code ?
+* Comment pouvez-vous améliorer les performances de défilement de votre site Web ?
+* Expliquez la différence entre la mise en page, la peinture et la composition.
+
+**[[⬆]](#toc)**
+
+#### <a name="network-questions">Questions sur le réseau</a>
 
 * Pourquoi est-il préférable de disposer ses assets sur des domaines différents ?
 * Faites de votre mieux pour décrire le processus à partir du moment où vous tapez l'URL d'un site internet jusqu'au moment où la page a finit de charger.
 * Quelle est la différence entre "Long-Polling", "Websockets" et les événements "Server-Sent" ?
 * Expliquez les entêtes de requêtes et réponses suivant :
-  * Différences entre Expires, Date, Age and If-Modified-...
+  * Différences entre `Expires`, `Date`, `Age` et `If-Modified-`...
   * Do Not Track
-  * Cache-Control
-  * Transfer-Encoding
-  * ETag
-  * X-Frame-Options
-* Quelles sont les différentes actions HTTP ? Listez toutes celles que vous connaissez et expliquez les.
+  * `Cache-Control`
+  * `Transfer-Encoding`
+  * `ETag`
+  * `X-Frame-Options`
+* Quelles sont les différentes actions (verbes) HTTP ? Listez toutes celles que vous connaissez et expliquez-les.
 
 **[[⬆]](#toc)**
 
-####<a name='code-questions'>Questions sur la programmation :</a>
+#### <a name='code-questions'>Questions sur la programmation :</a>
 
-*Question: Quelle est la valeur de `foo` ?*
+*Quelle est la valeur de `foo` ?*
 ```javascript
 var foo = 10 + '20';
 ```
 
-*Question: Comment feriez-vous marcher ceci?*
+*Comment feriez-vous marcher ceci ?*
 ```javascript
 add(2, 5); // 7
 add(2)(5); // 7
 ```
 
-*Question: Que retourne ce code ?*
+*Que retourne ce code ?*
 ```javascript
 "je suis un bouffeur de lasagne".split("").reverse().join("");
 ```
 
-*Question: Que retourne window.foo?*
+*Que retourne `window.foo` ?*
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
 
-*Question: Qu'est ce qu'affiche les deux alertes ci-dessous ?*
+*Qu'affichent les deux alertes ci-dessous ?*
 ```javascript
 var foo = "Hello";
 (function() {
@@ -203,7 +233,7 @@ var foo = "Hello";
 alert(foo + bar);
 ```
 
-*Question: Quelle est la valeur de `foo.length` ?*
+*Quelle est la valeur de `foo.length` ?*
 ```javascript
 var foo = [];
 foo.push(1);
@@ -212,17 +242,18 @@ foo.push(2);
 
 **[[⬆]](#toc)**
 
-####<a name='fun-questions'>Questions pour le fun :</a>
+#### <a name='fun-questions'>Questions pour le fun :</a>
 
 * Quel est le truc le plus cool que vous ayez programmé, de quoi êtes-vous le plus fier ?
 * Quelles sont les parties favorites des outils de développement que vous utilisez ?
+* Qui vous inspire dans la communauté front-end ?
 * Avez-vous des projets chouchous ? Quel genre ?
 * Quelle est votre fonctionnalité favorite dans IE ?
 * Comment voulez-vous votre café ?
 
 **[[⬆]](#toc)**
 
-####<a name="contributors">Contributeurs :</a>
+#### <a name="contributors">Contributeurs :</a>
 
 Ce document a démarré avec la collaboration de [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) et [@iansym](https://twitter.com/iansym).
 
